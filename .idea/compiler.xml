@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="IM-main-service" />
+        <module name="IM-api" />
+        <module name="IM-file-manager-service" />
+        <module name="IM-authority-service" />
+        <module name="IM-gateway-service" />
+        <module name="IM-gateway" />
+        <module name="IM-MessageQueue-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="IM-api" target="1.5" />
+      <module name="IM-authority-service" target="1.5" />
+      <module name="IM-file-manager-service" target="1.5" />
+      <module name="IM-gateway" target="1.5" />
+      <module name="IM-gateway-service" target="1.5" />
+      <module name="IM-main-service" target="1.5" />
+      <module name="IM-MessageQueue-service" target="1.5" />
+      <module name="total-project" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="total-project" options="" />
+    </option>
+  </component>
+</project>

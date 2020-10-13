@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/IM-MessageQueue-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-MessageQueue-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-authority-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-authority-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-file-manager-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-file-manager-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-main-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-main-service/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
