@@ -10,6 +10,7 @@
         <module name="IM-main-service" />
         <module name="IM-api" />
         <module name="IM-file-manager-service" />
+        <module name="IM-utils-tools" />
         <module name="IM-authority-service" />
         <module name="IM-gateway-service" />
         <module name="IM-gateway" />
@@ -24,6 +25,7 @@
       <module name="IM-gateway-service" target="1.5" />
       <module name="IM-main-service" target="1.5" />
       <module name="IM-MessageQueue-service" target="1.5" />
+      <module name="IM-utils-tools" target="1.5" />
       <module name="total-project" target="1.5" />
     </bytecodeTargetLevel>
   </component>

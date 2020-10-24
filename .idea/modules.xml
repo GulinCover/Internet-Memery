@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/IM-gateway-service/IM-gateway.iml" filepath="$PROJECT_DIR$/IM-gateway-service/IM-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/IM-gateway-service/IM-gateway-service.iml" filepath="$PROJECT_DIR$/IM-gateway-service/IM-gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/IM-main-service/IM-main-service.iml" filepath="$PROJECT_DIR$/IM-main-service/IM-main-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IM-utils-tools/IM-utils-tools.iml" filepath="$PROJECT_DIR$/IM-utils-tools/IM-utils-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/total-project.iml" filepath="$PROJECT_DIR$/total-project.iml" />
     </modules>
   </component>
