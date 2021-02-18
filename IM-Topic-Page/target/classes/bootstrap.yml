@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: service-topic-page
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${HOSTS:localhost:8848}

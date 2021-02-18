@@ -7,30 +7,52 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="IM-main-service" />
-        <module name="IM-api" />
-        <module name="IM-file-manager-service" />
-        <module name="IM-utils-tools" />
         <module name="IM-authority-service" />
         <module name="IM-gateway-service" />
         <module name="IM-gateway" />
         <module name="IM-MessageQueue-service" />
+        <module name="IM-main-service" />
+        <module name="IM-api" />
+        <module name="IM-comment-service" />
+        <module name="IM-access-page-api" />
+        <module name="IM-topic-service" />
+        <module name="IM-file-manager-service" />
+        <module name="IM-other-service" />
+        <module name="IM-utils-tools" />
+        <module name="IM-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="IM-api" target="1.5" />
-      <module name="IM-authority-service" target="1.5" />
-      <module name="IM-file-manager-service" target="1.5" />
+      <module name="IM-access-page-api" target="1.8" />
+      <module name="IM-api" target="8" />
+      <module name="IM-authority-service" target="1.8" />
+      <module name="IM-comment-service" target="1.8" />
+      <module name="IM-file-manager-service" target="1.8" />
       <module name="IM-gateway" target="1.5" />
-      <module name="IM-gateway-service" target="1.5" />
-      <module name="IM-main-service" target="1.5" />
-      <module name="IM-MessageQueue-service" target="1.5" />
-      <module name="IM-utils-tools" target="1.5" />
-      <module name="total-project" target="1.5" />
+      <module name="IM-gateway-service" target="1.8" />
+      <module name="IM-main-service" target="8" />
+      <module name="IM-MessageQueue-service" target="1.8" />
+      <module name="IM-other-service" target="1.8" />
+      <module name="IM-topic-service" target="1.8" />
+      <module name="IM-user-service" target="1.8" />
+      <module name="IM-utils-tools" target="1.8" />
+      <module name="total-project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IM-MessageQueue-service" options="-parameters" />
+      <module name="IM-access-page-api" options="-parameters" />
+      <module name="IM-api" options="-parameters" />
+      <module name="IM-authority-service" options="-parameters" />
+      <module name="IM-comment-service" options="-parameters" />
+      <module name="IM-file-manager-service" options="-parameters" />
+      <module name="IM-gateway-service" options="-parameters" />
+      <module name="IM-main-service" options="-parameters" />
+      <module name="IM-other-service" options="-parameters" />
+      <module name="IM-topic-service" options="-parameters" />
+      <module name="IM-user-service" options="-parameters" />
+      <module name="IM-utils-tools" options="-parameters" />
       <module name="total-project" options="" />
     </option>
   </component>

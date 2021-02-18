@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulincover.user.dao.UserInfoMapper">
+    <select id="findRepeatEmail" resultType="java.lang.Long">
+        select 1 from user_info where email=#{email} limit 1
+    </select>
+
+    <select id="findRepeatPhone" resultType="java.lang.Long">
+        select 1 from user_info where phone=#{phone} limit 1
+    </select>
+
+    <select id="findRepeatNickname" resultType="java.lang.Long">
+        select 1 from user_info where name=#{name} limit 1
+    </select>
+    
+    <select id="loginByEmail" resultType="java.lang.Long">
+        select 1 from user_info where email=#{email} and password=#{password} and is_black=0 limit 1
+    </select>
+    <select id="loginByPhone" resultType="java.lang.Long">
+        select 1 from user_info where phone=#{phone} and password=#{password} and is_black=0 limit 1
+    </select>
+
+
+
+    <select id="selectIdByEmail" resultType="java.lang.Long">
+        select id from user_info where email=#{email} and is_black=0 limit 1
+    </select>
+    <select id="selectIdByPhone" resultType="java.lang.Long">
+        select id from user_info where phone=#{phone} and is_black=0 limit 1
+    </select>
+    <select id="selectUserIdById" resultType="java.lang.Long">
+        select id from user_info where id=#{id} and is_black=0 limit 1
+    </select>
+
+</mapper>

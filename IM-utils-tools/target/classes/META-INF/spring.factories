@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.gulincover.utils.config.SwaggerAutoConfigure
+  com.gulincover.utils.config.swagger.SwaggerAutoConfigure

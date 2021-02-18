@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulincover.topic.dao.TopicInfoMapper">
+
+    <select id="isExist" resultType="java.lang.Integer">
+        select 1 from topic_info where id=#{topicId} and is_black=0 limit 1;
+    </select>
+
+</mapper>

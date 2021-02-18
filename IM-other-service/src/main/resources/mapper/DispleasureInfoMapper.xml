@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulincover.other.dao.DispleasureInfoMapper">
+    <select id="inquireDispleasureNumberForTopicByTopicId" resultType="java.lang.Integer">
+        select count(user_id) from browse_info where topic_id=#{topicId}
+    </select>
+
+    <select id="inquireDispleasureNumberForCommentByCommentId" resultType="java.lang.Integer">
+        select count(user_id) from browse_info where comment_id=#{commentId}
+    </select>
+
+    <select id="inquireDispleasureInfoIsExistByTopicId" resultType="java.lang.Integer">
+        select 1 from displeasure_info where user_id=#{userId} and topic_id=#{topicId}
+    </select>
+    <select id="inquireDispleasureInfoIsExistByCommentId" resultType="java.lang.Integer">
+        select 1 from displeasure_info where user_id=#{userId} and comment_id=#{commentId}
+    </select>
+</mapper>

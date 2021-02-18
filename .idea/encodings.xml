@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/IM-access-page-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IM-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-comment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IM-main-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IM-main-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-other-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-topic-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IM-user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IM-utils-tools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IM-utils-tools/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

@@ -1,0 +1,28 @@
+server:
+  port: 8005
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/internetmemory?serverTimezone=UTC
+    username: root
+    password: ACDCacdc120
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 9997
+feign:
+  sentinel:
+    enabled: true
+snowflake:
+  datacenterId: 3
+  workId: 1
+swagger:
+  title: "comment info api"
+  description: "comment info api development"
+  group-name: "comment api"
+  base-package: com.gulincover.comment
+  version: "1.0.0"
+mybatis-plus:
+  mapper-locations: classpath:mapper/*

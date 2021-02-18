@@ -2,45 +2,45 @@
   "groups": [
     {
       "name": "swagger",
-      "type": "com.gulincover.utils.config.SwaggerProperties",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties"
+      "type": "com.gulincover.utils.config.swagger.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties"
     }
   ],
   "properties": [
     {
       "name": "swagger.base-package",
       "type": "java.lang.String",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties",
       "defaultValue": "com.gulincover.*"
     },
     {
       "name": "swagger.description",
       "type": "java.lang.String",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties",
       "defaultValue": "internet memory api document"
     },
     {
       "name": "swagger.group-name",
       "type": "java.lang.String",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties",
       "defaultValue": "default"
     },
     {
       "name": "swagger.terms-of-service-url",
       "type": "java.lang.String",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties",
       "defaultValue": "https:\/\/github.com\/GulinCover\/Internet-Memery"
     },
     {
       "name": "swagger.title",
       "type": "java.lang.String",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties",
       "defaultValue": "internet memory"
     },
     {
       "name": "swagger.version",
       "type": "java.lang.String",
-      "sourceType": "com.gulincover.utils.config.SwaggerProperties",
+      "sourceType": "com.gulincover.utils.config.swagger.SwaggerProperties",
       "defaultValue": "1.0.0"
     }
   ],

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulincover.comment.dao.CommentInfoMapper">
+
+    <select id="selectCommentInfoByCommentId" resultType="com.gulincover.api.entity.CommentInfo">
+        select * from comment_info where comment_id=#{commentId} and is_black=0;
+    </select>
+
+    <select id="selectCommentInfosByTopicId" resultType="com.gulincover.api.entity.CommentInfo">
+        select * from comment_info where topic_id=#{topicId} and is_black=0;
+    </select>
+    <select id="selectCommentInfo1sByTopicId" resultType="com.gulincover.api.entity.CommentInfo">
+        select * from comment_info where topic_id=#{topicId} and comment_level=1 and is_black=0;
+    </select>
+    <select id="selectCommentInfo2sByCommentId" resultType="com.gulincover.api.entity.CommentInfo">
+        select * from comment_info where comment_comment_id=#{commentId} and comment_level=2 and is_black=0;
+    </select>
+
+
+
+    <select id="selectCommentInfo1sByTopicId" resultType="com.gulincover.api.entity.CommentInfo">
+        select * from comment_info where topic_id=#{topicId} and comment_level=1 and is_black=0;
+    </select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

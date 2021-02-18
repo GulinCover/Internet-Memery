@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulincover.gateway.dao.AuthenticationCodeMapper">
+    <select id="isExistByAuthenticationCode">
+        select 1 from authentication_code_entity where authentication_code=#{code} limit=1
+    </select>
+
+    <select id="selectSigningKeyByCurrentDate" parameterType="java.util.Date">
+        select authentication_code from authentication_code_entity where create_time=#{current} limit=1
+    </select>
+</mapper>

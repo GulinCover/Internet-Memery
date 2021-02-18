@@ -1,6 +1,13 @@
-server:
-  port: 8001
 swagger:
   base-package: com.gulincover.home
-  description: "hello world"
-  group-name: "hahha"
+  description: "index api development"
+  group-name: "index api"
+mybatis-plus:
+  mapper-locations: classpath:mapper/*
+spring:
+  application:
+    name: service-total
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${HOSTS:localhost:8848}

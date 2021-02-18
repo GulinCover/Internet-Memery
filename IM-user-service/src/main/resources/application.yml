@@ -1,0 +1,21 @@
+server:
+  port: 8003
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/internetmemory?serverTimezone=UTC
+    username: root
+    password: ACDCacdc120
+    type: com.alibaba.druid.pool.DruidDataSource
+swagger:
+  base-package: com.gulincover.user
+  description: "user info api development"
+  group-name: "user info api"
+  title: "user info api"
+  version: "1.0.0"
+mybatis-plus:
+  mapper-locations: classpath:mapper/*

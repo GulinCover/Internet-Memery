@@ -1,0 +1,25 @@
+server:
+  port: 11002
+feign:
+  sentinel:
+    enabled: true
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 9999
+swagger:
+  title: "topic page api"
+  description: "topic page api development"
+  group-name: "topic page api"
+  base-package: com.gulincover.topicPage
+  version: "1.0.0"
+snowflake:
+  datacenter-id: 3
+  work-id: 1
+auction:
+  page-number: 80
+jwt:
+  signing-key: html
+  ttl: 1000000000

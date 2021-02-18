@@ -1,0 +1,30 @@
+server:
+  port: 9001
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/internetmemory?serverTimezone=UTC
+    username: root
+    password: ACDCacdc120
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: gateway_route
+          uri: lb://service-user
+          order: 1
+          predicates:
+            - Path=/test/**
+          filters:
+            - StripPrefix=1
+swagger:
+  base-package: com.gulincover.topic
+  description: "gateway info api development"
+  group-name: "gateway info api"
+  title: "gateway info api"
+  version: "1.0.0"
+mybatis-plus:
+  mapper-locations: classpath:mapper/*

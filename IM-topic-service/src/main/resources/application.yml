@@ -1,0 +1,34 @@
+server:
+  port: 8104
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/internetmemory?serverTimezone=UTC
+    username: root
+    password: ACDCacdc120
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 9999
+mybatis-plus:
+  mapper-locations: classpath:mapper/*
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+feign:
+  sentinel:
+    enabled: true
+snowflake:
+  datacenterId: 1
+  workId: 1
+swagger:
+  base-package: com.gulincover.topic
+  description: "topic info api development"
+  group-name: "topic info api"
+  title: "topic info api"
+  version: "1.0.0"
